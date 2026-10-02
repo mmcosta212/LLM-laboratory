@@ -1,0 +1,60 @@
+001 | [VALUES]   HumanMessage | content="What's the weather in San Francisco?"
+002 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+003 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+004 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+005 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+006 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+007 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+008 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=True | last_message=HumanMessage
+009 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+010 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+011 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=HumanMessage
+012 | [VALUES]   AIMessage | content=''
+013 | [MESSAGES] ToolMessage | content="It's always sunny in San Francisco!" | has_tool_calls=False | last_message=AIMessage
+014 | [VALUES]   ToolMessage | content="It's always sunny in San Francisco!"
+015 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+016 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+017 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+018 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+019 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+020 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+021 | [MESSAGES] AIMessageChunk | content='The weather' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: 'The weather'
+022 | [MESSAGES] AIMessageChunk | content=' in' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' in'
+023 | [MESSAGES] AIMessageChunk | content=' San Francisco is sunny' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' San Francisco is sunny'
+024 | [MESSAGES] AIMessageChunk | content=' — according' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' — according'
+025 | [MESSAGES] AIMessageChunk | content=' to the weather' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' to the weather'
+026 | [MESSAGES] AIMessageChunk | content=" service, it's always sunny" | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: " service, it's always sunny"
+027 | [MESSAGES] AIMessageChunk | content=' there!' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' there!'
+028 | [MESSAGES] AIMessageChunk | content=' ☀️\n\nLet me know' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' ☀️\n\nLet me know'
+029 | [MESSAGES] AIMessageChunk | content=" if you'd like the" | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: " if you'd like the"
+030 | [MESSAGES] AIMessageChunk | content=' forecast' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' forecast'
+031 | [MESSAGES] AIMessageChunk | content=' for any' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' for any'
+032 | [MESSAGES] AIMessageChunk | content=' other city.' | has_tool_calls=False | last_message=ToolMessage
+>>> INIZIO STREAMING RISPOSTA FINALE <<<
+Primo chunk: ' other city.'
+033 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+034 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+035 | [MESSAGES] AIMessageChunk | content='' | has_tool_calls=False | last_message=ToolMessage
+036 | [VALUES]   AIMessage | content="The weather in San Francisco is sunny — according to the weather service, it's always sunny there! ☀️\n\nLet me know if you'd like the forecast for any other city."
